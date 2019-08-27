@@ -81,7 +81,7 @@ git merge desarrollo fusionar ambas ramas (ejecurtar desde master)
 git push --set-upstream origin development
 
 
-## hithub
+## github
 
 git remote add origin direccionrepositorio 
 
