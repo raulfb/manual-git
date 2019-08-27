@@ -3,15 +3,25 @@
 ## Comandos git en local
 
 git init empieza en esa carpeta un repositorio.
+
 git add nombrearchivo.txt añades a staging(estado temporal, memoria ram) el archivo
+
 git rm nombrearchivo remueves el archivo de staging
+
 git rm --cached nombrearchivo
+
 git commit -m "numero de version" Envia los datos a la base de datos del sistema de control de versiones.
+
 git add . agregas todos los archivos que hayan cambiado al respositorio.
+
 git status ver estado cambios realizados.
+
 git show muestra todos los cambios (un historico de cambios)
+
 git show nombrearchivo muestra todos los cambios realizados en un archivo.
+
 git log nombrearchivo ver historia entera de un archivo.
+
 git log ver historial de cambios 
 git log --stat mestra mas informacion que git log
 git log --all --graph ver info repo donde puedes ver las ramas representadas visualmente
