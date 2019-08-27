@@ -102,26 +102,33 @@ git tag -d nombretag eliminar el tag
 git push origin :refs/tags/nombretag elimina el tag de la interfaz grafica de github.
 
 git show-branch --all muestra informacion de los cambios hechos en cada rama .
+
 git push origin rama1 envia la rama de nombre rama1 al repo remoto.
 
 ## Git rebase
 
 git rebase experimento se pega la historia a la rema master
-git rebase master 
-(Esto sirve para recoger todos los cambios comfirmados en un rama y ponerlos en la otra.)
+
+git rebase master (Esto sirve para recoger todos los cambios comfirmados en un rama y ponerlos en la otra.)
 
 ## Git stash
 
 git stash guardamos un estado temporal
+
 git stash list muestra una lista de los stash que tenemos.
+
 git stash pop recuperamos los cambios guardados en stash.
+
 git stash branch nombrerama guarda los cambios del stash en una rama.
+
 git stash drop para borrar el stash.
 
 ## Git clean 
 
 git clean --dry-run lista el listado de archivos que va a borrar.
+
 git clean -f borrar los archivos que se han listado anteriormente.
+
 git clean -f nombrearchivo borra el archivo que deseamos.
 
 git cherry-pick hash Para trarse un determinado commit
@@ -133,7 +140,9 @@ git reflog Muestra una lista de todo el historial de commits, cada uno con su ha
 ## busquedas
 
 git log --all --grep='aaa' busca la palabra aaa en el historico de commits
+
 git grep -n palabra muestra en la linea que esta lo que estamos buscando
+
 git grep -c nos muestra cuentas veces se repite una palabra y en que archivos está
 
 git shortlog muestra el historico de commits hechos por cada usuario
